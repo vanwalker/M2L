@@ -1,0 +1,37 @@
+<div ng-controller="NavbarCtrl" ng-init="reservationpicker()">
+    <div class="container">
+        <form ng-submit="setReservation()">
+            <div class='col-md-6'>
+                De :
+                <div class='input-group date datetimepicker6'>
+                    <input type='text' name= "reservationStart" class="form-control" ng-model="formDatas.reservationStart" ng-minlength="16" ng-maxlength="16" required/>
+                    <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                </div>
+            </div>
+            <div class='col-md-6'>
+                à :
+                <div class="form-group">
+                    <div class='input-group date datetimepicker7'>
+                        <input type='text' name= "reservationEnd" class="form-control" ng-model="formDatas.reservationEnd" ng-minlength="16" ng-maxlength="16" required/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class='col-lg-12'>
+                <div class="form-group">
+                    Nom de la réservation:
+                    <input type='text' name= "name" class="form-control" ng-model="formDatas.name" required/>
+                </div>
+            </div>
+            <button type="submit" class="btn col-lg-6 buttonCenter" >
+                <span class="glyphicon"></span> Réserver!
+            </button>
+        </form>
+    </div>
+
+
+</div>

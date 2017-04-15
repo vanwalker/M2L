@@ -1,0 +1,71 @@
+<div ng-controller="NavbarCtrl" ng-init="tableconstruct()">
+    <div class="container" >
+        <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="table-responsive">
+                <table class="table table-bordered yesterday">
+                    <thead>
+                    <tr>
+                        <th colspan="2">
+                            Yesterday {{days[0].date}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Heure
+                        </th>
+                        <th>
+                            Réservations
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div class="container col-xs-12 col-sm-4 col-md-4">
+            <div class="table-responsive">
+                <table class="table table-bordered today">
+                    <thead>
+                    <tr>
+                        <th colspan="2">
+                            Today {{days[1].date}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Heure
+                        </th>
+                        <th>
+                            Réservations
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="table-responsive">
+                <table class="table table-bordered tomorrow">
+                    <thead>
+                    <tr>
+                        <th colspan="2">
+                            Tomorrow {{days[2].date}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Heure
+                        </th>
+                        <th>
+                            Réservations
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

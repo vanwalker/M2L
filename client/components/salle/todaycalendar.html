@@ -1,0 +1,19 @@
+<div ng-controller="NavbarCtrl" ng-init="todaycalendar()">
+    <div class="container">
+        <div class='col-md-5'>
+            <form class="form-group">
+                <label>What about Today in {{path_infos | filter: uppercase;}}</label>
+                <div class='input-group date datetimepicker' >
+                    <input type='text' name="todaydate" class="form-control" />
+                    <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div ng-controller="SalleCtrl">
+
+
+</div>
