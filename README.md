@@ -37,6 +37,8 @@ In order to start the app:
 - In the terminal or 'cmd' command prompt, go to the root directory from the app and type:
     - > bower install
     - > npm install
+    - and to start:
+    - >grunt serve
     
 Open a browser, go to 'localhost:9000', and here we're done.
 
