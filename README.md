@@ -10,8 +10,7 @@ Some dependencies are required, download's choices depends on your OS:
 - NodeJS, a JavaScript runtime built, you can find it [here](https://nodejs.org/en/download/ "NodeJS")
     - Once installed, update Node Package Manager (npm), open terminal:
         - > sudo npm install npm@latest -g
-        - or
-        - 'cmd' run as administrator
+        - or in 'cmd' command prompt run as administrator
         - >npm install npm@latest -g
         
 - Python, for some modules dependencies, you can find the downloads [here](https://www.python.org/downloads/ "Python")
@@ -35,7 +34,7 @@ Some dependencies are required, download's choices depends on your OS:
 In order to start the app:
 
 - Clone the project or download the .zip file.
-- In the terminal or 'cmd' prompt, go to the root directory from the app and type:
+- In the terminal or 'cmd' command prompt, go to the root directory from the app and type:
     - > bower install
     - > npm install
     
