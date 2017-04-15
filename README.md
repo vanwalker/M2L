@@ -3,7 +3,9 @@
 ----------
 This WebApp is a 'room reservation management' base on a [Yeoman](http://yeoman.io/ "Yeoman") Angular-Fullstack Generator.
 
+-----
 ### Installation for development
+-----
 
 Some dependencies are required, download's choices depends on your OS:
 
