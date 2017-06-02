@@ -50,7 +50,7 @@ Thanks.
 # PPE M2l FR
 
 ----------
-Cette WebApp de «gestion de réservation de salles» basée sur un générateur Full-Stack Angular [Yeoman](http://yeoman.io/ "Yeoman").
+Cette WebApp de «gestion de réservation de salles» est  basée sur un générateur Full-Stack Angular [Yeoman](http://yeoman.io/ "Yeoman").
 
 -----
 ### Installation pour le développement
